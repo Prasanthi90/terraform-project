@@ -1,5 +1,5 @@
 resource "aws_elb" "bar" {
-  name               = "raham-terraform-elb"
+  name               = "prasanthi-terraform-elb"
   availability_zones = ["us-east-1a", "us-east-1b"]
 
   listener {
@@ -32,7 +32,7 @@ resource "aws_elb" "bar" {
   availability_zones      = ["us-east-1a", "us-east-1b"]
   database_name           = "mydb"
   master_username         = "foo"
-  master_password         = "Rahamshaik#444555"
+  master_password         = "prasanthi@565656"
   backup_retention_period = 5
   preferred_backup_window = "07:00-09:00"
 }*/
